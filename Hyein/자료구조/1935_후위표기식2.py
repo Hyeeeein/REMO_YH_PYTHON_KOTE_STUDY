@@ -21,5 +21,7 @@ for c in s :
             stack.append(n2 / n1)
     else:
         stack.append(arr_dict[c])
+
+print(stack)
         
 print('{:.2f}'.format(stack[0]))
