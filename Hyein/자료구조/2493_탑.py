@@ -21,5 +21,3 @@ for i in range(N):
     stack.append((i, towerList[i]))  # 현재 탑을 스택에 추가
 
 print(" ".join(map(str, result)))  # 정답 출력
-
-
